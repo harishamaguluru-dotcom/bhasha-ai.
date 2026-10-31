@@ -34,7 +34,7 @@ logger = logging.getLogger("bhasha.translator")
 # Configuration
 # --------------------------------------------------------------------------- #
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-2.0-flash"
 MAX_INPUT_CHARS = 5000
 MAX_ATTEMPTS = 3
 RETRY_DELAY_SECONDS = 1.5
